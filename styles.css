@@ -1,0 +1,13 @@
+.stApp { background: linear-gradient(160deg, #eaf6fd 0%, #cfeafa 100%); }
+h1 { text-align: center; }
+div[data-testid="stMetric"] {
+  background: #ffffff; border-radius: 16px; padding: 14px 10px;
+  text-align: center; box-shadow: 0 4px 14px rgba(0, 60, 100, .08);
+}
+div[data-testid="stMetric"] > div { justify-content: center; }
+.stButton > button { border-radius: 14px; font-weight: 600; transition: transform .1s; }
+.stButton > button:active { transform: scale(.96); }
+.stProgress > div > div > div > div { background: linear-gradient(90deg, #6cc4f2, #1e90d6); }
+.msg { text-align: center; font-weight: 600; font-size: 1.1rem; margin: 10px 0; }
+.msg.done { color: #1a9d5c; animation: pop .8s ease; }
+@keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.15); } 100% { transform: scale(1); } }
